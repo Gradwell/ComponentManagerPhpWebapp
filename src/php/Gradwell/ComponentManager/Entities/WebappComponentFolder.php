@@ -47,7 +47,7 @@ namespace Gradwell\ComponentManager\Entities;
 class WebappComponentFolder extends ComponentFolder
 {
         const LATEST_VERSION = 1;
-        const DATA_FOLDER = '@@DATA_DIR@@/phix/php-webapp';
+        const DATA_FOLDER = '@@DATA_DIR@@/ComponentManagerPhpWebapp/php-webapp';
 
         public function createComponent()
         {
